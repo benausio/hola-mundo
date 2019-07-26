@@ -264,7 +264,7 @@ Transph23 = complexFFT23out/complexFFT23in;
 T23r = real(Transph23(:,3));
 T23i = imag(Transph23(:,3));
 phaselag23 = atan(T23i./T23r);
-
+ 
 subplot(3,1,3)
 plot(freqint23out,phaselag23); title('Phase Lag 23in'); 
 xlabel('Frequency (Hz)'); 
